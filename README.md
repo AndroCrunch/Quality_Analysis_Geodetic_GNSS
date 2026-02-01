@@ -1,16 +1,12 @@
-# GNSS data processing with Python
+# Quality Analysis of Geodetic-Grade vs Affordable GNSS Receivers
 
-Welcome to the hands-on tutorials for GNSS data processing using Python and
-Jupyter Notebooks/book
+This project is a practical application of GNSS data processing using Python, with emphasis on RINEX data processing, GNSS observables, noise analysis, and performance comparison of geodetic-grade and low-cost GNSS receivers.
 
-The tutorials are written using [Jupyter books](https://jupyterbook.org) but can be executed independently
-using tools such as Binder.
+## Scope
+- Multi-constellation, multi-frequency GNSS observables
+- Code noise via code-minus-carrier combinations
+- Carrier-phase noise via geometry-free combinations
+- Receiver performance comparison
 
-To do so, click on the following badge:  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rokubun/gnss_tutorials/HEAD)
-
-Otherwise, keep reading 😉
-
-💡 Do you want to see some specific content? Feel free to submit a
-[new issue in the Github repository of this book](https://github.com/rokubun/gnss_tutorials/issues/new)
-and make sure you specify **feature request** label for the issue. We will try
-to do our best to add it.
+## Tools
+Python • Jupyter Notebook • pandas • numpy • matplotlib • roktools
